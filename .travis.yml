@@ -1,5 +1,5 @@
 language: c
-script: asdf plugin-test maven https://github.com/skotchpine/asdf-maven.git
+script: asdf plugin-test maven $TRAVIS_BUILD_DIR
 before_script:
   - git clone https://github.com/asdf-vm/asdf.git
   - . asdf/asdf.sh
